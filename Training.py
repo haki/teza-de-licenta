@@ -5,7 +5,7 @@ os.environ[
     'TF_CPP_MIN_LOG_LEVEL'] = '3'  # Setting the environment variable to suppress the warning messages  from the tensorflow library
 from sklearn.model_selection import \
     train_test_split  # Importing the train_test_split function from the sklearn library to split the data into training and testing data
-from utlis import *  # Importing the utlis.py file to be able to use the functions in the utlis.py file
+from utils import *  # Importing the utils.py file to be able to use the functions in the utils.py file
 
 path = '..\\DataCollected'  # Setting the path to the data collected
 data = importDataInfo(path)  # Calling the importDataInfo function to import the data collected
